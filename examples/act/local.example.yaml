@@ -1,0 +1,8 @@
+# 仅作本机绑定格式示例。真实文件放在项目 .researchos/local.yaml 并忽略 Git。
+# 相对路径以真实 local.yaml 所在目录解析。
+schema_version: "0.1-draft"
+project_root: ".."
+framework_root: "../../researchOS"
+artifact_root: "../../research-data/act-example"
+state_database: "./state.sqlite"
+# 凭据不得写入此文件；路径本身不授予读写权限。

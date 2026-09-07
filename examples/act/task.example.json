@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1-draft",
+  "task_id": "visual-dependence-example",
+  "project_id": "act-example",
+  "status": "draft",
+  "question": "如何区分策略使用视觉定位与依赖状态或示教相关性？",
+  "hypotheses": [
+    "视觉变化会引起与目标变化一致的行为变化",
+    "策略主要利用非视觉线索"
+  ],
+  "discriminating_evidence": "待设计：避免将不合理图像扰动造成的分布外失败直接解释为视觉依赖。",
+  "constraints": {
+    "execution": "offline_or_simulation",
+    "real_robot": false
+  },
+  "budget": {
+    "max_runs": 0,
+    "note": "草稿任务禁止启动；准备就绪时明确预算。"
+  },
+  "evaluation": {
+    "status": "needs_definition",
+    "evaluator_revision": null
+  },
+  "evidence_ids": [],
+  "note": "假设场景，不描述 ACT 现有实验结果。"
+}

@@ -1,0 +1,19 @@
+# 设计示例，未接入 ACT；null 代表必须验证或补充，不可直接执行。
+schema_version: "0.1-draft"
+project_id: "act-example"
+repository: "https://github.com/Marco6-3/ACT"
+framework:
+  protocol: "0.1-draft"
+  revision: null # 真实接入时固定已验证的 researchOS commit
+execution:
+  backend: null
+  environment_lock: null
+  entrypoints:
+    train: null
+    evaluate: null
+evaluation:
+  evaluator_revision: null
+  metrics: []
+  status: "needs_definition"
+artifacts:
+  store_id: "project-artifacts"

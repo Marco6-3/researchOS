@@ -1,0 +1,15 @@
+# 本机状态、凭据、缓存和大产物不进入框架源码仓库
+.researchos/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+runs/
+artifacts/
+data/
+checkpoints/
+*.sqlite
+*.sqlite-*
